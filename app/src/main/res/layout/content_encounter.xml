@@ -10,4 +10,36 @@
     tools:showIn="@layout/activity_encounter"
     tools:context="com.example.michael.slamdnd.EncounterActivity">
 
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinTreasure"
+        android:spinnerMode="dropdown"
+        android:contextClickable="false"
+        android:entries="@array/EncounterLocation"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_below="@+id/spinTreasure"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
