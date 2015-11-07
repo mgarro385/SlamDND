@@ -21,10 +21,10 @@
         android:focusableInTouchMode="true"
 
 
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:layout_marginTop="47dp"
-        android:background="#ffffff" />
+        android:background="#ffffff"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button" />
 
     5f93aca479cc831a47e410843b3a7a5b31bebaac
         android:layout_alignParentTop="true"
@@ -34,11 +34,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Generate"
         android:id="@+id/button"
-        android:layout_below="@+id/spinTreasure"
-        android:layout_centerHorizontal="true"
-        android:onClick="Encounter_Click" />
+        android:onClick="Encounter_Click"
+        android:layout_alignTop="@+id/spinRegion"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,12 +47,17 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="TEST"
         android:id="@+id/textView"
-        android:layout_below="@+id/button"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
+<<<<<<< HEAD
         android:layout_alignParentStart="true"
         android:layout_marginTop="147dp"
         android:layout_alignRight="@+id/spinTreasure"
         android:layout_alignEnd="@+id/spinTreasure"
         android:textColor="#ffffff"/>
+=======
+        android:layout_alignParentStart="true" />
+>>>>>>> a8b5b0f81ac9909a3fe49d96db4597d886512e03
 
 </RelativeLayout>
