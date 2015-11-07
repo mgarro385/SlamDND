@@ -7,5 +7,14 @@
         <item>Individual Treasure</item>
         <item>Treasure Hoard</item>
     </string-array>
+
+    <string-array name="EncounterLocation">
+        <item>Forest</item>
+        <item>Plains</item>
+        <item>City</item>
+        <item>Mountains</item>
+        <item>Cave</item>
+    </string-array>
+
     <string name="title_activity_encounter">EncounterActivity</string>
 </resources>
