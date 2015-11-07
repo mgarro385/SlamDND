@@ -8,6 +8,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_encounter"
+    android:background="#000000"
     tools:context="com.example.michael.slamdnd.EncounterActivity">
 
     <Spinner
@@ -18,6 +19,14 @@
         android:contextClickable="false"
         android:entries="@array/EncounterLocation"
         android:focusableInTouchMode="true"
+
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp"
+        android:background="#ffffff" />
+
+    5f93aca479cc831a47e410843b3a7a5b31bebaac
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
