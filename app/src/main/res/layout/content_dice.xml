@@ -7,6 +7,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#000000"
     tools:showIn="@layout/activity_dice2" tools:context="com.example.michael.slamdnd.DiceActivity">
 
     <TextView
@@ -18,7 +19,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:textColor="#ffffff" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -30,7 +32,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView" />
+        android:layout_toStartOf="@+id/textView"
+        android:background="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,7 +42,8 @@
         android:text="Dice Type:"
         android:id="@+id/textView2"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="28dp" />
+        android:layout_marginTop="28dp"
+        android:textColor="#ffffff"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -51,7 +55,8 @@
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView"
         android:layout_marginLeft="37dp"
-        android:layout_marginStart="37dp" />
+        android:layout_marginStart="37dp"
+        android:textColor="#ffffff"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -61,7 +66,8 @@
         android:width="70dp"
         android:maxWidth="50dp"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        />
 
     <EditText
         android:layout_width="wrap_content"
@@ -71,7 +77,11 @@
         android:layout_alignLeft="@+id/textView3"
         android:layout_alignStart="@+id/textView3"
         android:layout_alignRight="@+id/btnRoll"
-        android:layout_alignEnd="@+id/btnRoll" />
+        android:layout_alignEnd="@+id/btnRoll"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#ffffff"
+        android:foreground="#ffffff"
+        android:inputType="number" />
 
     <TextView
         android:layout_width="120dp"
@@ -79,5 +89,8 @@
         android:id="@+id/output"
         android:layout_marginBottom="103dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:onClick="rollClick" />
 </RelativeLayout>

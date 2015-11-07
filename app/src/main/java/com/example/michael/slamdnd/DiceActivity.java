@@ -23,11 +23,11 @@ public class DiceActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         Button roll = (Button)findViewById(R.id.btnRoll);
-
+    System.out.print("Button");
 
     }
 
-    public void roll()
+    public void rollClick(View view)
     {
         // Grabs value from spinner
         Spinner spin=(Spinner)findViewById(R.id.spinner);   // Spinner Instance
@@ -47,19 +47,22 @@ public class DiceActivity extends AppCompatActivity {
             n = 20;
         else
             n = 100;
-
+        
         TextView result = (TextView)findViewById(R.id.output);  // TextView(output) Instance
         EditText edit = (EditText)findViewById(R.id.editText2); // EditText Instance
-        String s = edit.getText().toString();                   // Grabs string from the instance
-        int m = Integer.parseInt(s);                            // Converts string to integer
+        int m = Integer.parseInt();                   // Grabs string from the instance
+                                                 // Converts string to integer
+
 
         Random rand = new Random();                             // Random Instance
         int random = 0;                                         // Random Integer Variable
+
         for(int i = 0; i < m; i++)                              // Iterates 'm' times
         {
             random = rand.nextInt(n)+1;                         // Gets a random number in a given range
-            result.setText(random + ",");
+            String s2 = String.valueOf(random);
         }
+        result.setText("a");
     }
 
 }
