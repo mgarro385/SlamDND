@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">SlamDND</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_loot">LootActivity</string>
+
+    <string-array name="treasure">
+        <item>Individual Treasure</item>
+        <item>Treasure Hoard</item>
+    </string-array>
+    <string name="title_activity_encounter">EncounterActivity</string>
 </resources>
