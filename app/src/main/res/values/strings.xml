@@ -7,4 +7,5 @@
         <item>Individual Treasure</item>
         <item>Treasure Hoard</item>
     </string-array>
+    <string name="title_activity_encounter">EncounterActivity</string>
 </resources>

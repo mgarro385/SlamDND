@@ -23,6 +23,11 @@
             android:label="@string/title_activity_loot"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".EncounterActivity"
+            android:label="@string/title_activity_encounter"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
