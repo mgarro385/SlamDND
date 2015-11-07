@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
         });*/
 
         Button loot = (Button)findViewById(R.id.lootBtn);
-        loot.setOnClickListener(new View.OnClickListener(){
+        loot.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, LootActivity.class));
             }
         });
@@ -45,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button dieRoller = (Button)findViewById(R.id.rollBtn);
+        dieRoller.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, DiceActivity.class));
+            }
+        });
     }
 
     @Override

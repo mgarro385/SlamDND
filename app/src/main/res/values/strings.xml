@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">SlamDND</string>
+
+    <string-array name="dice_type">
+        <item>D_4</item>
+        <item>D_6</item>
+        <item>D_8</item>
+        <item>D_10</item>
+        <item>D_12</item>
+        <item>D_20</item>
+        <item>D_100</item>
+    </string-array>
+
     <string name="action_settings">Settings</string>
     <string name="title_activity_loot">LootActivity</string>
 
@@ -8,4 +19,5 @@
         <item>Treasure Hoard</item>
     </string-array>
     <string name="title_activity_encounter">EncounterActivity</string>
+    <string name="title_activity_dice">DiceActivity</string>
 </resources>
