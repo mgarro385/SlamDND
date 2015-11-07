@@ -9,6 +9,43 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main" tools:context=".MainActivity">
 
-    <TextView android:text="Hello World!" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll Dice"
+        android:id="@+id/rollBtn"
+        android:layout_marginTop="155dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginEnd="66dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Encounter"
+        android:id="@+id/encounterBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/rollBtn"
+        android:layout_alignStart="@+id/rollBtn"
+        android:layout_alignRight="@+id/rollBtn"
+        android:layout_alignEnd="@+id/rollBtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Loot"
+        android:id="@+id/lootBtn"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/encounterBtn"
+        android:layout_alignLeft="@+id/encounterBtn"
+        android:layout_alignStart="@+id/encounterBtn"
+        android:layout_alignRight="@+id/encounterBtn"
+        android:layout_alignEnd="@+id/encounterBtn" />
+
 </RelativeLayout>
